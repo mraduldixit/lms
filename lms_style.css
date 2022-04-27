@@ -1,0 +1,548 @@
+
+/*sign in form */
+
+body{
+	background-image: url("lms_assest/img/bg1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top-left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+
+
+.signin{
+	width: 80%;
+	margin: auto;
+	margin-top: 60px;
+	height: 600px;
+}
+.signin {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.signin .form1,.form2{
+	background-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
+	margin: 100px;
+	width: 40%;
+	height: 400px;
+	text-align: center;
+	border-radius: 15%;
+	box-shadow: 4px 5px 15px black;
+}
+.signin .unit{
+	padding: 10px;
+	margin: 20px;
+}
+.signin .unit h3{
+	font-size: 25px;
+	color: white;
+	text-shadow: 1px 2px 10px black;
+	font-style: oblique;
+}
+.signin .submitbtn button{
+	display: block;
+	height:35px ;
+	width:65px ;
+	color: white;
+	background-color:blue ;
+	padding: 5px;
+	box-shadow: 2px 3px 10px blanchedalmond;
+	margin: auto;
+	font-size: 15px;
+}
+.signin label{
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+	text-shadow: 1px 2px 10px black;
+}
+.signin input{
+	background-color: #1f2240;
+	color: white;
+}
+
+
+a{
+	text-decoration:none;}
+
+
+
+	.swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper{
+height: 300px;
+      }
+    
+    .welcome h3{
+    	text-align: center;
+    	font-size: 35px;
+    	color:violet ;
+    	text-shadow: 5px 4px 10px 2px black;
+    }
+    .loginmain{
+    	width: 20%;
+    	margin: auto;
+    	background-color: green;
+    	color: white;
+
+    }
+    .loginmain a{
+    	display: block;
+    	width: 100%;
+    	height: 30px;
+    	text-align: center;
+    }
+
+    .navbar{
+	list-style-type:none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.fixedheader{
+	display: flex;
+	flex-direction: row;
+	background-image: linear-gradient(to right, #3620CD , #7104EB,#B517DE);
+	height:90px;
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	top: 0;
+	box-shadow:  8px 1px 15px blanchedalmond;
+}
+
+
+.nav{
+	width: 80%;
+}
+.logo
+{
+	width: 20%;
+}
+.logo img{
+	display: block;
+	margin: auto;
+}
+
+
+
+.navbar li a{
+	display: block;
+	text-decoration: none;
+	padding: 3px 10px 3px 10px;
+	font-size:17px ;
+	color:#f5f5f7 ;
+	font-family: 'Libre Baskerville', serif;
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 3px 10px black;
+}
+.nav li a:hover{
+	background-color:lightpink;
+	border-radius: 20px;
+	color: black;
+}
+.nav li{
+	margin: 17px;
+}
+
+
+
+.shopinfo{
+	position: absolute;
+//	background-color:rgba(16, 0, 48, 0.90);
+ background-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
+	padding: 10px;
+	width: 80%;
+	top: 135px;
+	bottom: 200px;
+	left: 10%;
+	height: 2000px;
+	z-index: -1;
+	text-shadow: 2px 3px 10px black;
+}
+.empty{
+	position: absolute;
+	height: 200px;
+	width: 100%;
+	top: 2090px;
+}
+
+/*shop info page */
+
+.otherdetails{
+	color: white;
+	width: 90%;
+	margin: auto;
+	padding-bottom: 50px;
+}
+.imgandname{
+	 background-image: linear-gradient(to bottom, #1013de , #de10b1);
+	color: white;
+	width: 90%;
+	margin: auto;
+}
+.otherdetails ul{
+	list-style-type: none;
+}
+.otherdetails ul li{
+	padding: 30px;
+	 background-image: linear-gradient(to right, #1013de , #de10b1);
+	z-index: 1;
+	margin: 30px;
+	color: #ffffff;
+	font-size: 14px;
+	box-shadow: 4px 4px 10px #f5e907;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+	text-shadow: 2px 3px 10px black;
+}
+
+.otherdetails ul li:hover{
+
+}
+
+
+.otherdetails ul li i{
+	font-size: 25px;
+	color: #12fc16;
+	padding-right: 10px;
+
+}
+#btn1{
+	display: block;
+	margin: auto;
+	color: white;
+	font-size: 40px;
+	width: 120px;
+	height: 50px;
+	background-color: #132df2;
+	box-shadow: 3px 3px 8px #f5e907;
+}
+.editbutton a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+.shopname ul{
+	list-style-type: none;
+	width: 400px;
+	margin: auto;
+}
+.shopname ul li{
+	font-size: 20px;
+}
+.shopname ul li i{
+	font-size: 17px;
+}
+
+
+.shopname{
+	padding: 10px;
+
+}
+
+
+.imgandname{
+	margin-top: 30px;
+	padding-top: 30px;
+	box-shadow: 4px 4px 10px #f5e907;
+}
+
+/*form which will show shop details*/
+.editformforshop{
+	z-index: 1;
+	background-color:rgba(199, 199, 214, 0.95);
+
+	color: black ;
+	font-size: 15px;
+	position: sticky;
+	margin-top: 100px;
+	top: 100px;
+	left: 30%;
+	width: 40%;
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow:  4px 8px 20px black;
+	display: none;
+
+}
+
+.editformforshop .formelm{
+   padding: 5px;
+}
+.editformforshop .formelm .labeldiv{
+padding: 2px;
+}
+.inputdiv{
+	padding: 2px;
+
+}
+
+
+.submitformbtn button
+{ display: block;
+	margin: auto;
+	padding: 5px;
+	height: 30px;
+	width: 60px;
+	color: black;
+	box-shadow: 2px 3px 10px black;
+}
+input ,select{
+	background-color: rgba(16, 0, 48,0.80);
+	color: white;
+}
+.imgandname{
+	text-align: center;
+	height: 200px;
+}
+.imgandname h3{
+	font-size:50px ;
+	color:black ;
+	text-shadow: 4px 5px 15px blanchedalmond;
+}
+.imgandname h4{
+	font-size: 25px;
+	text-shadow: 2px 3px 10px black;
+}
+
+.contactdiv{
+  position: absolute;
+  margin-top: 120px;
+  width: 70%;
+  left: 15%;
+  z-index: -1;
+}
+.contactdiv .buisness .heading
+{
+	margin: auto;
+}
+
+.contactdiv ul{
+	margin: auto;
+	list-style-type: none;
+}
+.contactdiv ul{
+   padding: 30px;
+	 background-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
+	z-index: 1;
+	margin: 50px;
+	color: #ffffff;
+	font-size: 14px;
+	box-shadow: 10px 7px 15px blanchedalmond;;
+	border-radius: 50%;
+	transition: transform 1s ease 0s;
+}
+.contactdiv ul:hover{
+  transform: rotate3d(1, 1, 1, 360deg);
+}
+
+
+
+.contactdiv ul li{
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	font-size: 18px;
+	text-shadow: 2px 3px 10px black;
+}
+ .contactdiv .heading{
+ font-size: 35px;
+ color: black;
+ margin: auto;
+ text-align: center;
+ text-shadow: 2px 3px 10px blanchedalmond;
+}
+.contactdiv li span{
+	font-size: 16px;
+	font-style: oblique;
+}
+.contactdiv ul li em{
+	font-size: 16px;
+	margin: 5px;
+}
+
+
+
+.abc{
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+	top: 170px;
+	height: 800px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	z-index: -1;
+}
+
+
+
+.abc .frm
+{
+//	baground-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
+//	margin: 100px;
+	width: 35%;
+	height: 900px;
+	text-align: center;
+	border-radius: 15%;
+//	box-shadow: 2px 4px 10px black;
+}
+
+.abc .frm
+{
+//	baground-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
+	//margin: 100px;
+	width: 35%;
+	height: 600px;
+	text-align: center;
+	border-radius: 15%;
+//	box-shadow: 2px 4px 10px black;
+}
+
+
+
+
+
+.abc  h3{
+	font-size: 35px;
+	color: white;
+	text-shadow: 3px 2px 15px black;
+	font-style: oblique;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.frm{
+	text-align: center;
+}
+.frm{
+	text-align: center;
+}
+
+.abc ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+.abc ul li{
+  margin: 20px;
+  background-color: rgba(48, 17, 145, 0.95);
+  font-size: 22px;
+  color: white;
+  box-shadow: 2px 3px 10px yellow;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  width: 100%;
+}
+
+.abc ul li a{
+text-decoration: none;
+display: block;
+width: 100%;
+height: 100%;
+color: white;
+}
+.abc ul li a:hover{
+	color: deeppink;
+}
+
+
+.asd{
+position: absolute;
+top: 200px;
+width: 30%;
+left: 35%;
+height: 900px;
+}
+
+
+.asd ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+.asd ul li{
+  margin: 20px;
+  background-color: rgba(48, 17, 145, 0.95);
+  font-size: 22px;
+  color: white;
+  box-shadow: 2px 3px 10px yellow;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  width: 100%;
+}
+
+.asd ul li a{
+text-decoration: none;
+display: block;
+width: 100%;
+height: 100%;
+color: white;
+}
+.asd ul li a:hover{
+	color: deeppink;
+}
+.asd  h3{
+	font-size: 35px;
+	color: white;
+	text-shadow: 3px 2px 15px black;
+	font-style: oblique;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
